@@ -1,0 +1,31 @@
+\documentclass[14pt,a4paper]{extarticle}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage[mathscr]{eucal}
+\usepackage{graphicx}
+\usepackage[russian]{babel}
+\usepackage[cp1251]{inputenc}
+\usepackage[T2A]{fontenc}
+\newenvironment{proof}[1][Доказательство]{\noindent\textbf{#1. \ }}{\ \rule{0.5em}{0.5em}}
+\newenvironment{solution}[1][Решение]{\noindent\textbf{#1. \ }}{\ \rule{0.5em}{0.5em}}
+\usepackage{geometry}
+\geometry{left=3cm}
+\geometry{right=1cm}
+\geometry{top=2cm}
+\geometry{bottom=2cm}
+\renewcommand{\baselinestretch}{1.3}
+\tolerance=500
+\begin{document}
+\noindent{\bf Задача.}
+{\it
+Найдите длину вектора $\vec{a}\{2;3\}$
+}\\
+\noindent{\bf Дано:}\\
+$\vec{a}\{2;3\}$
+\\
+\noindent{\bf Найти:}
+$|\vec{a}|$.
+\\
+\begin{solution}
+$|\vec{a}|=\sqrt{x^2 + y^2}=\sqrt{2^2 + 3^2}=\sqrt{4+9}=\sqrt{13}=3,605551$
+\end{solution}
+\end{document}
